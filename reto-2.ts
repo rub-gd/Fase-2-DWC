@@ -26,3 +26,13 @@ const misTareas: Tarea[] = [
     prioridad: 'Media',
   },
 ];
+
+function completarTarea(lista: Tarea[], idBuscar: number): Tarea[] {
+  const listaNueva = lista.map(function (tarea) {
+    if (tarea.id === idBuscar) {
+      return { ...tarea, completada: true };
+    }
+        return tarea;
+  });
+    return listaNueva;
+}
