@@ -1,5 +1,10 @@
 class ProductComponent {
-  private precioBase: number = 0;
   private iva: number = 0.21;
-  public nombreProducto: string = '';
+
+  constructor(public nombreProducto: string, private precioBase: number) {}
+
+  public obtenerPrecioFinal(): number {
+    const precioDelIva = this.precioBase * this.iva;
+    return this.precioBase + precioDelIva;
+  }
 }
