@@ -13,3 +13,9 @@ const usuarioValido: UsuarioAPI = {
   rol: 'alumno',
 };
 
+const usuarioNoValido: UsuarioAPI = {
+  id: 2,
+  username: 'Manu',
+  email: 'manu@example.com',
+  rol: 'invitado',
+};
