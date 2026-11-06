@@ -8,3 +8,8 @@ class ProductComponent {
     return this.precioBase + precioDelIva;
   }
 }
+
+const producto = new ProductComponent('Pila', 78);
+
+console.log(producto.nombreProducto);
+console.log(producto.obtenerPrecioFinal());
