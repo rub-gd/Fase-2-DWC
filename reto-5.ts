@@ -9,3 +9,11 @@ class ServicioDatos {
     console.log('Conectando a ' + this.endpoint);
   }
 }
+
+class ServicioUsuarios extends ServicioDatos {
+  public entidad: string = 'usuarios';
+
+  constructor(endpoint: string) {
+    super(endpoint);
+  }
+}
