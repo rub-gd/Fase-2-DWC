@@ -7,10 +7,10 @@
    - El compilador de TypeScript, tsc, en la terminal.
 
 ## ¿Qué hay en cada archivo?
-   -src/app.ts: Código TypeScript de los cinco retos y ejemplos para comprobarlos.
-   -dist/app.js: JavaScript que se genera al compilar. No hace falta escribirlo a mano.
-   -index.html: Página que carga el JavaScript generado.
-   -tsconfig.json: Configuración que indica a TypeScript cómo compilar el proyecto.
+   - src/app.ts: Código TypeScript de los cinco retos y ejemplos para comprobarlos.
+   - dist/app.js: JavaScript que se genera al compilar. No hace falta escribirlo a mano.
+   - index.html: Página que carga el JavaScript generado.
+   - tsconfig.json: Configuración que indica a TypeScript cómo compilar el proyecto.
 
 ## Cómo compilar
    1. Abre en Visual Studio Code la carpeta del proyecto.
