@@ -2,9 +2,9 @@
    Ejercicios para practicar los fundamentos de TypeScript y la programación orientada a objetos con cinco retos sobre interfaces, arrays, clases, control de errores y herencia.
 
 ## ¿Qué necesito?
-   -Visual Studio Code.
-   -Un navegador web.
-   -El compilador de TypeScript, tsc, en la terminal.
+   - Visual Studio Code.
+   - Un navegador web.
+   - El compilador de TypeScript, tsc, en la terminal.
 
 ## ¿Qué hay en cada archivo?
    -src/app.ts: Código TypeScript de los cinco retos y ejemplos para comprobarlos.
@@ -13,10 +13,10 @@
    -tsconfig.json: Configuración que indica a TypeScript cómo compilar el proyecto.
 
 ## Cómo compilar
-   1 Abre en Visual Studio Code la carpeta del proyecto.
-   2 Comprueba que está el archivo tsconfig.json correctamente configurado.
-   3 Abre una terminal desde.
-   4 Escribe tsc y pulsa Enter.
+   1. Abre en Visual Studio Code la carpeta del proyecto.
+   2. Comprueba que está el archivo tsconfig.json correctamente configurado.
+   3. Abre una terminal desde.
+   4. Escribe tsc y pulsa Enter.
 
    Si se complila bien, se generará o actualizará dist/app.js.
 
@@ -24,11 +24,11 @@
    Después de compilar, abre index.html en el navegador. Usa la extensión Live Server de Visual Studio Code: haz clic derecho en index.html y selecciona Open with Live Server. Los resultados se muestran en la consola del navegador.
 
 ## Retos incluidos
-   1 Interfaz UsuarioAPI con roles permitidos y un token no obligatorio.
-   2 Interfaz Tarea y función completarTarea, que da una lista nueva.
-   3 Clase ProductComponent, tiene un precio base privado y un método para calcular el precio con IVA.
-   4 Interfaz RespuestaServidor y función para procesar respuestas de éxito o error.
-   5 Clases ServicioDatos y ServicioUsuarios, que utiliza `super()` para llamar al constructor de la clase base.
+   1. Interfaz UsuarioAPI con roles permitidos y un token no obligatorio.
+   2. Interfaz Tarea y función completarTarea, que da una lista nueva.
+   3. Clase ProductComponent, tiene un precio base privado y un método para calcular el precio con IVA.
+   4. Interfaz RespuestaServidor y función para procesar respuestas de éxito o error.
+   5. Clases ServicioDatos y ServicioUsuarios, que utiliza `super()` para llamar al constructor de la clase base.
 
    Al final de app.ts hay comprobaciones para ver si todo está correctamente hecho o no.
 
